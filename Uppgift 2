@@ -1,0 +1,74 @@
+body {
+  background: url("https://thewallpaper.co//wp-content/uploads/2016/10preview/landscape-wallpaper-download-free-hd-background-wallpapers-free-amazing-cool-tablet-smart-phone-4k-1920x1080.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+p {
+  color: #fff;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
+
+li {
+  color: #d3d3d3;
+}
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #778899;
+  }
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #708090;
+  }
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+  color: #d3d3d3;
+  }
+
+.intro {
+  text-align: center;
+}
+
+.summary {
+  background: rgba(20, 29, 38, 0.7);
+}
+
+.preamble {
+  background: rgba(20, 29, 38, 0.7);
+}
+
+.explanation, .participation, .benefits {
+  background: rgba(20, 29, 38, 0.7);
+  max-width: 30%;
+  padding: 10px 20px 10px 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1%;
+}
+
+.requirements {
+  background: rgba(20, 29, 38, 0.7);
+  text-align: center;
+}
+
+footer {
+  background: rgba(20, 29, 38, 0.7);
+  text-align: center;
+}
+
+.wrapper {
+  background: rgba(20, 29, 38, 0.7);
+  padding-left: 5%;
+}
