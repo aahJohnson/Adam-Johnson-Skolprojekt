@@ -1,0 +1,239 @@
+:root {
+    --font: "Quicksand", sans-serif;
+    --hover: #99AAB5;
+    --black: #23272A;
+}
+
+.navbar {
+    position: fixed;
+    background-color: var(--black);
+    width: 90%;
+    padding-left: 10%;
+    height: 5%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 20px 10px 10px var(--black);
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-family: var(--font);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 35px 50px 25px 25px;
+    margin-top: -10px;
+}
+
+.navbar a:hover {
+    color: var(--hover);
+}
+
+body {
+    background-color: #2C2F33;
+    color: white;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    font-family: var(--font);
+}
+
+.gameCovers img {
+    vertical-align: middle;
+    width: 13%;
+    height: auto;
+    margin: 50px 20px 50px 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.gameCovers img:hover {
+    border: 2px solid var(--hover);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.newsimg {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 2% 3% 100px 10%;
+}
+
+.newsimg img {
+    width: 100px;
+    border-radius: 20px;
+    margin: 45px 0px 20px 0px;
+}
+
+.news {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 0px 10% 100px 0%;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.news h3 {
+    margin: 95px 0px 0px 0px;
+}
+
+.arenas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+.arenas img {
+    width: 40%;
+    height: 300px;
+    object-fit: none;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #696969;
+    border-radius: 25px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: var(--black);
+    padding: 16px 32px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+input[type=submit]:hover {
+    background-color: var(--hover);
+}
+
+label {
+    padding: 30px 0 10px 0;
+}
+
+.mvps img {
+    width: 30%;
+}
+
+footer {
+    width: 60%;
+    padding: 20px 20% 100px 20%;
+    margin-top: 100px;
+    font-family: var(--font);
+    color: white;
+    font-size: 20px;
+    background-color: var(--black);
+}
+
+footer p {
+    margin: 30px 50px 0 0;
+    float: left;
+}
+
+footer a {
+    padding: 20px;
+    float: right;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer a:hover {
+    background-color: var(--hover);
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar a {
+        font-size: 14px;
+    }
+    h1, h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .gameCovers img {
+        width: 10%;
+    }
+    .newsimg {
+        margin-left: 0;
+    }
+    .newsimg img {
+        width: 50px;
+        margin-top: 68px;
+    }
+    .news {
+        font-size: 10px;
+    }
+    .mvps img {
+        width: 40%;
+    }
+    footer {
+        font-size: 15px;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    footer p {
+        margin-right: 25px;
+    }
+    footer a {
+        padding: 20px 10px 20px 10px;
+    }
+    footer img {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 8px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    .gameCovers img {
+        width: 8%;
+    }
+    .newsimg img {
+        margin-top: 73px;
+    }
+    .mvps img {
+        width: 50%;
+    }
+    footer {
+        width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    footer img {
+        width: 30px;
+    }
+}
